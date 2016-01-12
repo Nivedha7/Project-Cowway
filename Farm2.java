@@ -27,19 +27,12 @@ public class Farm2 extends WorldObject2{
 				}
 			}
 		}
-
 	}
-
 	public FarmObjects2[][] getArray(){
 		setFarm();
 		return objectsFarm;
 	}
-
 	public String toString(){
 		return(Arrays.deepToString(objectsFarm));
 	}
-
-
-
-
 }
